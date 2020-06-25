@@ -25,7 +25,7 @@ jobs:
         with:
           args: install
       - name: serverless deploy
-        uses: mirrorhanyu/serverless-github-action-python@master
+        uses: DiljotSG/serverless-github-action-python@master
         with:
           args: deploy
         env:
